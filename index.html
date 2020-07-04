@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1>Advisor Activity Report</h1>
+        <p>Please report your activities by filling up this form.</p>
+    </header>
+    <form action="" id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+            <p>
+                Action taken
+            </p>
+            <select name="actions-taken" id="actions-taken">
+                <option value="cold call">Cold call</option>
+                <option value="set appointment">Set appointment</option>
+                <option value="presented">Presented</option>
+                <option value="closed">Closed</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Contact source:</p>
+            <label>
+                <input name="source" value="social-media" type="checkbox">
+                Social Media
+            </label>
+            <label>
+                <input name="source" value="referral" type="checkbox">
+                Referral
+            </label>
+            <label>
+                <input name="source" value="resell" type="checkbox">
+                Resell
+            </label>
+            <label>
+                <input name="source" value="Others" type="checkbox">
+                Others
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Remarks: </p>
+            <textarea name="remarksbox" id="remarks" cols="30" rows="10" placeholder="Include details about your contact here"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

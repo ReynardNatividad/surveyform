@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+#container {
+    text-align: center;
+}
